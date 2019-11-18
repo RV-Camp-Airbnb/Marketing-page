@@ -139,3 +139,73 @@ html {
   box-sizing: border-box;
   max-width: 100%;
 }
+.landing-body {
+  width: 100%;
+}
+.landing-body .landing-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("/images/family-camping.jpg");
+  background-size: cover;
+  background-position: center 75%;
+  background-repeat: no-repeat;
+  height: 93vh;
+}
+.landing-body .landing-container .landing-content {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  width: 75%;
+}
+.landing-body .landing-container .landing-content .heading {
+  border: 1px solid gray;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.landing-body .landing-container .landing-content .heading h1 {
+  border: 1px solid gray;
+  font-size: 8rem;
+  color: white;
+}
+.landing-body .landing-container .landing-content .heading h1 img {
+  border: 1px solid gray;
+  width: 30%;
+}
+.landing-body .landing-container .landing-content .heading-btn {
+  margin: 3vh 0;
+}
+.landing-body .landing-container .landing-content .heading-btn a {
+  font-size: 2rem;
+  padding: 0.5rem 2rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  background: rgba(165, 42, 42, 0.25);
+  transition: 1s;
+  color: white;
+  text-decoration: none;
+}
+.landing-body .landing-container .landing-content .heading-btn a:hover {
+  background: rgba(163, 76, 76, 0.25);
+  transition: 1s;
+}
+.landing-body .arrow-down {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.landing-body .arrow-down .arrow-container img {
+  height: 5vh;
+  transition: 3s;
+}
+.landing-body .arrow-down .arrow-container img:hover {
+  transition: 1s;
+  transform: scale3d(1.1, 1.1, 1.1);
+}

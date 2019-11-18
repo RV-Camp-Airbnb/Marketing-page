@@ -1,0 +1,72 @@
+.landing-body{
+  width: 100%;
+
+  .landing-container{
+    .displayFlex(column, center, center);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("/images/family-camping.jpg");
+    background-size: cover;
+    background-position: center 75%;
+    background-repeat: no-repeat;
+    height: 93vh;
+
+    .landing-content{
+      .displayFlex(column, center, center);
+      .border();
+      width: 75%;
+
+      .heading{
+        .border();
+        .displayFlex(column, center, flex-start);
+
+        h1{
+          .border();
+          font-size: 8rem;
+          color: white;
+
+          img{
+            .border();
+            width: 30%;
+          }
+        }//h1
+      }//heading
+  
+      .heading-btn{
+        margin: 3vh 0;
+
+        a{
+          font-size: 2rem;
+          padding: 0.5rem 2rem;
+          border: 1px solid white;
+          border-radius: 5px;
+          background: rgba(165, 42, 42, 0.25);
+          transition: 1s;
+          color: white;
+          text-decoration: none;
+
+          &:hover{
+            background: rgba(163, 76, 76, 0.25);
+            transition: 1s;
+          }
+        }//a
+      }//heading btn
+    }//landing content
+  }//landing container
+
+  .arrow-down{
+    .displayFlex(row, center, center);
+    width: 100%;
+
+    .arrow-container{
+
+      img{
+        height: 5vh;
+        transition: 3s;
+
+        &:hover{
+          transition: 1s;
+          transform: scale3d(1.1, 1.1, 1.1);
+        }
+      }
+    }
+  }
+}//landing body
