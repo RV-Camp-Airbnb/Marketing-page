@@ -161,7 +161,7 @@ html {
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("/images/family-camping.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url("/images/family-camping.jpg");
   background-size: cover;
   background-position: center 75%;
   background-repeat: no-repeat;
@@ -191,9 +191,10 @@ html {
 }
 .landing-body .landing-container .landing-content .heading-btn {
   margin: 3vh 0;
+  margin-top: 7vh;
 }
 .landing-body .landing-container .landing-content .heading-btn a {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: 'Public Sans', sans-serif;
   padding: 0.5rem 2rem;
   border: 1px solid white;
