@@ -223,3 +223,60 @@ html {
   transition: 1s;
   transform: scale3d(1.1, 1.1, 1.1);
 }
+.landing-body .about-section {
+  width: 80%;
+  margin: 0 auto;
+}
+.landing-body .about-section .cont-one {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid gray;
+}
+.landing-body .about-section .cont-one .img-cont {
+  border: 1px solid gray;
+  width: 20%;
+}
+.landing-body .about-section .cont-one .about-text {
+  border: 1px solid gray;
+  padding: 0 2%;
+}
+.landing-body .about-section .cont-one .about-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3vh;
+}
+.landing-body .about-section .cont-one .about-text P {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+.landing-body .about-section .cont-two {
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid gray;
+  margin-top: 2vh;
+}
+.landing-body .about-section .cont-two .img-cont {
+  border: 1px solid gray;
+  width: 20%;
+}
+.landing-body .about-section .cont-two .about-text {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-end;
+  border: 1px solid gray;
+  padding: 0 2%;
+}
+.landing-body .about-section .cont-two .about-text h2 {
+  border: 1px solid gray;
+  font-size: 2.5rem;
+  margin-bottom: 3vh;
+}
+.landing-body .about-section .cont-two .about-text P {
+  border: 1px solid gray;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
