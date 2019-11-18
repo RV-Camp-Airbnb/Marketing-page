@@ -10,33 +10,35 @@
 
   .about-title{
     text-align: right;
-
     @media @phone{
       text-align: center;
-    }
-
+    }//media
     h2{
       padding: 2vh 2%;
       font-size: 4rem;
-
       @media @phone{
         font-size: 5rem;
-      }
-    }
-  }
-
-  h2{
-    font-family: @publicFont;
-    font-weight: 700;
-  }//h2
-
-  p{
-    font-family: @publicFont;
-  }//p
+      }//media
+    }//h2
+  }//about title
 
   .about-article-cont{
     margin-top: 0vh;
+    .about-text{
+      width: 70%;
+      padding: 0 5%;
+
+      @media @phone{
+        .displayFlex(column, center, center);
+        width: 100%;
+        padding: 0;
+        margin-top: 3vh;
+      }
+    }//about text
   }//about article cont
+
+
+
 
 //=====LINE BREAK=====
   hr{
@@ -47,6 +49,57 @@
     width: 90%;
   }
 
+
+
+
+  //=====h2 / h3 / p=====
+  h2{
+    font-size: 2.5rem;
+    margin-bottom: 1.5vh;
+    font-family: @publicFont;
+    font-weight: 700;
+
+    @media @phone{
+      font-size: 3rem;
+    }
+  }//h2
+
+  h3{
+    font-size: 2rem;
+    font-family: @publicFont;
+    margin-bottom: 1.5rem;
+  }
+
+  P{
+    font-size: 2rem;
+    font-family: @publicFont;
+    line-height: 1.5;
+    @media @phone{
+      font-size: 2rem;
+    }
+    @media @tablet{
+      font-size: 1.75rem;
+    }
+  }//p
+
+
+
+
+  //=====IMG and IMG container=====
+  .img-cont{
+    width: 30%;
+
+    @media @tablet{
+      width: 75%
+    }
+    @media @phone{
+      width: 90%;
+    }
+  }
+
+  
+
+
 //=====BIO ONE=====
   .cont-one{
     .displayFlex(row, flex-start, center);
@@ -54,41 +107,6 @@
     @media @phone{
       .displayFlex(column, center, center);
     }
-    width: 100%;
-    .img-cont{
-      width: 30%;
-
-      @media @phone{
-        width: 100%;
-      }
-    }
-    .about-text{
-      width: 70%;
-      padding: 0 5%;
-
-      @media @phone{
-        .displayFlex(column, center, center);
-        width: 100%;
-        padding: 0;
-        margin-top: 3vh;
-      }
-      h2{
-        font-size: 2.5rem;
-        margin-bottom: 3vh;
-
-        @media @phone{
-          font-size: 3rem;
-        }
-      }//h2
-
-      P{
-        font-size: 1.5rem;
-        line-height: 1.5;
-        @media @phone{
-          font-size: 2rem;
-        }
-      }//p
-    }//about text
   }//cont one
 
 //=====BIO TWO=====
@@ -98,38 +116,6 @@
     @media @phone{
       .displayFlex(column, center, center);
     }
-    .img-cont{
-      width: 30%;
-
-      @media @phone{
-        width: 100%;
-      }
-    }
-    .about-text{
-      width: 70%;
-      padding: 0 5%;
-
-      @media @phone{
-        .displayFlex(column, center, center);
-        width: 100%;
-        padding: 0;
-        margin-top: 3vh;
-      }
-      h2{
-        font-size: 2.5rem;
-        margin-bottom: 3vh;
-        @media @phone{
-          font-size: 3rem;
-        }
-      }//h2
-      P{
-        font-size: 1.5rem;
-        line-height: 1.5;
-        @media @phone{
-          font-size: 2rem;
-        }
-      }//p
-    }//about text
   }//cont two
 
 //=====BIO THREE=====    
@@ -139,41 +125,7 @@
     @media @phone{
       .displayFlex(column, center, center);
     }
-    .img-cont{
-      width: 30%;
-
-      @media @phone{
-        width: 100%;
-      }
-    }
-    .about-text{
-      width: 70%;
-      padding: 0 5%;
-
-      @media @phone{
-        .displayFlex(column, center, center);
-        width: 100%;
-        padding: 0;
-        margin-top: 3vh;
-      }
-      h2{
-        font-size: 2.5rem;
-        margin-bottom: 3vh;
-
-        @media @phone{
-          font-size: 3rem;
-        }
-      }//h2
-
-      P{
-        font-size: 1.5rem;
-        line-height: 1.5;
-
-        @media @phone{
-          font-size: 2rem;
-        }
-      }//p
-    }//about text
+    
   }//cont three
 
 //=====BIO FOUR=====    
@@ -183,40 +135,7 @@
     @media @phone{
       .displayFlex(column, center, center);
     }
-    .img-cont{
-      width: 30%;
-
-      @media @phone{
-        width: 100%;
-      }
-    }
-    .about-text{
-      width: 70%;
-      padding: 0 5%;
-
-      @media @phone{
-        .displayFlex(column, center, center);
-        width: 100%;
-        padding: 0;
-        margin-top: 3vh;
-      }
-      h2{
-        font-size: 2.5rem;
-        margin-bottom: 3vh;
-
-        @media @phone{
-          font-size: 3rem;
-        }
-      }//h2
-      P{
-        font-size: 1.5rem;
-        line-height: 1.5;
-
-        @media @phone{
-          font-size: 2rem;
-        }
-      }//p
-    }//about text
+    
   }//cont four
 
 //=====BIO FIVE=====    
@@ -226,41 +145,6 @@
     @media @phone{
       .displayFlex(column, center, center);
     }
-    .img-cont{
-      width: 30%;
-
-      @media @phone{
-        width: 100%;
-      }
-    }
-    .about-text{
-      width: 70%;
-      padding: 0 5%;
-
-      @media @phone{
-        .displayFlex(column, center, center);
-        width: 100%;
-        padding: 0;
-        margin-top: 3vh;
-      }
-      h2{
-        font-size: 2.5rem;
-        margin-bottom: 3vh;
-
-        @media @phone{
-          font-size: 3rem;
-        }
-      }//h2
-
-      P{
-        font-size: 1.5rem;
-        line-height: 1.5;
-
-        @media @phone{
-          font-size: 2rem;
-        }
-      }//p
-    }//about text
   }//cont five
 
 //=====BIO SIX=====    
@@ -270,39 +154,7 @@
     @media @phone{
       .displayFlex(column, center, center);
     }
-    .img-cont{
-      width: 30%;
-
-      @media @phone{
-        width: 100%;
-      }
-    }
-    .about-text{
-      width: 70%;
-      padding: 0 5%;
-
-      @media @phone{
-        .displayFlex(column, center, center);
-        width: 100%;
-        padding: 0;
-        margin-top: 3vh;
-      }
-      h2{
-        font-size: 2.5rem;
-        margin-bottom: 3vh;
-
-        @media @phone{
-          font-size: 3rem;
-        }
-      }//h2
-      P{
-        font-size: 1.5rem;
-        line-height: 1.5;
-
-        @media @phone{
-          font-size: 2rem;
-        }
-      }//p
-    }//about text
   }//cont four
+
+
 }//about section
