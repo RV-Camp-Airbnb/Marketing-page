@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/publicsans/v2/ijwGs572Xtc6ZYQws9YVwllKVG8qX1oyOymuFpmJxAct.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Lobster Regular'), local('Lobster-Regular'), url(https://fonts.gstatic.com/s/lobster/v22/neILzCirqoswsqX9zoKmNg.ttf) format('truetype');
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -151,27 +165,25 @@ html {
   background-size: cover;
   background-position: center 75%;
   background-repeat: no-repeat;
-  height: 93vh;
+  height: 94vh;
 }
 .landing-body .landing-container .landing-content {
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid gray;
   width: 75%;
 }
 .landing-body .landing-container .landing-content .heading {
-  border: 1px solid gray;
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: flex-start;
 }
 .landing-body .landing-container .landing-content .heading h1 {
-  border: 1px solid gray;
   font-size: 8rem;
   color: white;
+  font-family: 'Lobster', cursive;
 }
 .landing-body .landing-container .landing-content .heading h1 img {
   border: 1px solid gray;
@@ -182,6 +194,7 @@ html {
 }
 .landing-body .landing-container .landing-content .heading-btn a {
   font-size: 2rem;
+  font-family: 'Public Sans', sans-serif;
   padding: 0.5rem 2rem;
   border: 1px solid white;
   border-radius: 5px;

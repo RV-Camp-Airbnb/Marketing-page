@@ -7,21 +7,19 @@
     background-size: cover;
     background-position: center 75%;
     background-repeat: no-repeat;
-    height: 93vh;
+    height: 94vh;
 
     .landing-content{
       .displayFlex(column, center, center);
-      .border();
       width: 75%;
 
       .heading{
-        .border();
         .displayFlex(column, center, flex-start);
 
         h1{
-          .border();
           font-size: 8rem;
           color: white;
+          font-family: @lobsterFont;
 
           img{
             .border();
@@ -35,6 +33,7 @@
 
         a{
           font-size: 2rem;
+          font-family: @publicFont;
           padding: 0.5rem 2rem;
           border: 1px solid white;
           border-radius: 5px;
