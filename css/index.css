@@ -403,6 +403,27 @@ html {
   background: rgba(0, 0, 0, 0.5);
   border: none;
 }
+.meet-the-team {
+  text-align: right;
+  margin-right: 10rem;
+}
+@media (max-width: 800px) {
+  .meet-the-team {
+    text-align: center;
+    margin: 0;
+  }
+}
+.meet-the-team h2 {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 5rem;
+  font-weight: 700;
+  color: black;
+}
+@media (max-width: 800px) {
+  .meet-the-team h2 {
+    font-size: 4rem;
+  }
+}
 .who-we-are {
   width: 80%;
   margin: 0 auto;
