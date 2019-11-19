@@ -1,0 +1,160 @@
+//======ABOUT SECTION==========
+.about-section{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2vh;
+
+  @media @phone{
+    width: 90%;
+  }
+
+  .about-title{
+    text-align: right;
+    @media @phone{
+      text-align: center;
+    }//media
+    h2{
+      padding: 2vh 2%;
+      font-size: 4rem;
+      @media @phone{
+        font-size: 5rem;
+      }//media
+    }//h2
+  }//about title
+
+  .about-article-cont{
+    margin-top: 0vh;
+    .about-text{
+      width: 70%;
+      padding: 0 5%;
+
+      @media @phone{
+        .displayFlex(column, center, center);
+        width: 100%;
+        padding: 0;
+        margin-top: 3vh;
+      }
+    }//about text
+  }//about article cont
+
+
+
+
+//=====LINE BREAK=====
+  hr{
+    margin: 4vh auto;
+    background: black;
+    border: none;
+    height: 1px;
+    width: 90%;
+  }
+
+
+
+
+  //=====h2 / h3 / p=====
+  h2{
+    font-size: 2.5rem;
+    margin-bottom: 1.5vh;
+    font-family: @publicFont;
+    font-weight: 700;
+
+    @media @phone{
+      font-size: 3rem;
+    }
+  }//h2
+
+  h3{
+    font-size: 2rem;
+    font-family: @publicFont;
+    margin-bottom: 1.5rem;
+  }
+
+  P{
+    font-size: 2rem;
+    font-family: @publicFont;
+    line-height: 1.5;
+    @media @phone{
+      font-size: 2rem;
+    }
+    @media @tablet{
+      font-size: 1.75rem;
+    }
+  }//p
+
+
+
+
+  //=====IMG and IMG container=====
+  .img-cont{
+    width: 30%;
+
+    @media @tablet{
+      width: 75%
+    }
+    @media @phone{
+      width: 90%;
+    }
+  }
+
+  
+
+
+//=====BIO ONE=====
+  .cont-one{
+    .displayFlex(row, flex-start, center);
+
+    @media @phone{
+      .displayFlex(column, center, center);
+    }
+  }//cont one
+
+//=====BIO TWO=====
+  .cont-two{
+    .displayFlex(row-reverse, flex-start, center);
+
+    @media @phone{
+      .displayFlex(column, center, center);
+    }
+  }//cont two
+
+//=====BIO THREE=====    
+  .cont-three{
+    .displayFlex(row, flex-start, center);
+
+    @media @phone{
+      .displayFlex(column, center, center);
+    }
+    
+  }//cont three
+
+//=====BIO FOUR=====    
+  .cont-four{
+    .displayFlex(row-reverse, flex-start, center);
+
+    @media @phone{
+      .displayFlex(column, center, center);
+    }
+    
+  }//cont four
+
+//=====BIO FIVE=====    
+  .cont-five{
+    .displayFlex(row, flex-start, center);
+
+    @media @phone{
+      .displayFlex(column, center, center);
+    }
+  }//cont five
+
+//=====BIO SIX=====    
+  .cont-six{
+    .displayFlex(row-reverse, flex-start, center);
+
+    @media @phone{
+      .displayFlex(column, center, center);
+    }
+  }//cont four
+
+
+}//about section
