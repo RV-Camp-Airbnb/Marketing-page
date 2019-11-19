@@ -1,0 +1,145 @@
+.line-break{
+  .displayFlex(row, center, center);
+  width: 100%;
+  margin: 5vh 0;
+
+  hr{
+    width: 90%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.50);
+    border: none;
+  }
+}
+
+.meet-the-team{
+  text-align: right;
+  margin-right: 10rem;
+
+  @media @tablet{
+    text-align: center;
+    margin: 0;
+  }
+
+  h2{
+    font-family: @publicFont;
+    font-size: 5rem;
+    font-weight: 700;
+    color: black;
+
+    @media @tablet{
+      font-size: 4rem;
+    }
+  }
+}
+
+.who-we-are{
+  width: 80%;
+  margin: 0 auto;
+
+  @media @phone{
+    width: 90%;
+  }
+
+  .who-container{
+
+    article{
+
+      @media @phone{
+        margin-top: 5vh;
+      }
+
+      .bio-cont{
+        .displayFlex(row, space-around, center);
+        margin-left: 3vw;
+        margin-right: 3vw;
+        margin-top: 2vh;
+
+        @media @tablet{
+          .displayFlex(column, space-around, center);
+          margin-top: 5vh;
+        }
+
+        @media @phone{
+          .displayFlex(column, space-around, center);
+        }
+
+        .img-cont{
+          width: 40%;
+
+          @media @tablet{
+            width: 60%;
+          }
+
+          @media @phone{
+            width: 100%;
+          }
+
+          img{
+            @media @phone{
+              border-radius: 5px;
+            }
+          }
+
+
+        }//img cont
+
+        .bio-text{
+          width: 40%;
+
+          @media @tablet{
+            width: 90%;
+          }
+
+          @media @phone{
+            width: 100%;
+          }
+
+          h2{
+            font-family: @robotFont;
+            font-size: 3.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5vh;
+            @media @tablet{
+              margin-top: 2vh;
+            }
+            @media @phone{
+              margin-top: 1vh;
+            }
+          }
+          h3{
+            font-family: @robotFont;
+            font-size: 2.5rem;
+            margin-bottom: 2vh;
+            margin-left: 0.5vw;
+          }
+          p{
+            font-family: @publicFont;
+            font-size: 2rem;
+            line-height: 1.5;
+
+            @media @tablet{
+              font-size: 1.9rem;
+            }
+
+            @media @phone{
+              font-size: 1.8rem;
+            }
+          }
+
+        }//bio text
+      }//bio cont
+
+      .bio-two-cont, .bio-four-cont, .bio-six-cont{
+        .displayFlex(row-reverse, space-around, center);
+
+        @media @tablet{
+          .displayFlex(column, space-around, center);
+        }
+
+        @media @phone{
+          .displayFlex(column, space-around, center);
+        }
+      }
+    }//article
+  }//who container
+}//who we are
