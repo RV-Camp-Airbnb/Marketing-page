@@ -206,8 +206,8 @@ html {
   border-radius: 5px;
 }
 .landing-body .landing-container .landing-content .heading-btn:hover {
-  background: #c56520;
-  transition: 1s;
+  background: #9c4f19;
+  transition: 0.25s;
 }
 @media (max-width: 500px) {
   .landing-body .landing-container .landing-content .heading-btn {
