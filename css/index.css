@@ -274,7 +274,7 @@ html {
 @media (max-width: 500px) {
   .bg-three {
     right: 1vw;
-    height: 55vh;
+    height: 57vh;
   }
 }
 .bg-four {
@@ -308,7 +308,7 @@ html {
   }
 }
 .about-us .about-container {
-  width: 70%;
+  width: 90%;
   padding: 5% 10% 10% 10%;
 }
 @media (max-width: 800px) {
@@ -319,6 +319,7 @@ html {
 @media (max-width: 500px) {
   .about-us .about-container {
     width: 100%;
+    padding: 2.5% 5% 5% 5%;
   }
 }
 .about-us .about-container .about-title {
@@ -418,6 +419,7 @@ html {
   font-size: 5rem;
   font-weight: 700;
   color: black;
+  margin-bottom: 5vh;
 }
 @media (max-width: 800px) {
   .meet-the-team h2 {
